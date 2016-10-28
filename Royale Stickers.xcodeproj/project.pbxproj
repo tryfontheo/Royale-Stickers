@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		297504A41DC2DE9500EA5623 /* StickerPackExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 297504A31DC2DE9500EA5623 /* StickerPackExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		297504A81DC2DE9500EA5623 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = 297504A71DC2DE9500EA5623 /* Stickers.xcstickers */; };
+		297504A91DC2DE9500EA5623 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = 297504A71DC2DE9500EA5623 /* Stickers.xcstickers */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		297504A51DC2DE9500EA5623 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 297504991DC2DE9500EA5623 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 297504A21DC2DE9500EA5623;
+			remoteInfo = StickerPackExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		297504AF1DC2DE9600EA5623 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				297504A41DC2DE9500EA5623 /* StickerPackExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2975049F1DC2DE9500EA5623 /* Royale Stickers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Royale Stickers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		297504A31DC2DE9500EA5623 /* StickerPackExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = StickerPackExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		297504A71DC2DE9500EA5623 /* Stickers.xcstickers */ = {isa = PBXFileReference; lastKnownFileType = folder.stickers; name = Stickers.xcstickers; path = StickerPackExtension/Stickers.xcstickers; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		297504981DC2DE9500EA5623 = {
+			isa = PBXGroup;
+			children = (
+				297504A71DC2DE9500EA5623 /* Stickers.xcstickers */,
+				297504A01DC2DE9500EA5623 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		297504A01DC2DE9500EA5623 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2975049F1DC2DE9500EA5623 /* Royale Stickers.app */,
+				297504A31DC2DE9500EA5623 /* StickerPackExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2975049E1DC2DE9500EA5623 /* Royale Stickers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 297504B01DC2DE9600EA5623 /* Build configuration list for PBXNativeTarget "Royale Stickers" */;
+			buildPhases = (
+				2975049D1DC2DE9500EA5623 /* Resources */,
+				297504AF1DC2DE9600EA5623 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				297504A61DC2DE9500EA5623 /* PBXTargetDependency */,
+			);
+			name = "Royale Stickers";
+			productName = "Royale Stickers";
+			productReference = 2975049F1DC2DE9500EA5623 /* Royale Stickers.app */;
+			productType = "com.apple.product-type.application.messages";
+		};
+		297504A21DC2DE9500EA5623 /* StickerPackExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 297504AC1DC2DE9600EA5623 /* Build configuration list for PBXNativeTarget "StickerPackExtension" */;
+			buildPhases = (
+				297504A11DC2DE9500EA5623 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StickerPackExtension;
+			productName = StickerPackExtension;
+			productReference = 297504A31DC2DE9500EA5623 /* StickerPackExtension.appex */;
+			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		297504991DC2DE9500EA5623 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Tryfon;
+				TargetAttributes = {
+					2975049E1DC2DE9500EA5623 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = LTZQ9BU56B;
+						DevelopmentTeamName = "Jerry Theophilopoulos";
+						ProvisioningStyle = Automatic;
+					};
+					297504A21DC2DE9500EA5623 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = LTZQ9BU56B;
+						DevelopmentTeamName = "Jerry Theophilopoulos";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2975049C1DC2DE9500EA5623 /* Build configuration list for PBXProject "Royale Stickers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 297504981DC2DE9500EA5623;
+			productRefGroup = 297504A01DC2DE9500EA5623 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2975049E1DC2DE9500EA5623 /* Royale Stickers */,
+				297504A21DC2DE9500EA5623 /* StickerPackExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2975049D1DC2DE9500EA5623 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				297504A91DC2DE9500EA5623 /* Stickers.xcstickers in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		297504A11DC2DE9500EA5623 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				297504A81DC2DE9500EA5623 /* Stickers.xcstickers in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		297504A61DC2DE9500EA5623 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 297504A21DC2DE9500EA5623 /* StickerPackExtension */;
+			targetProxy = 297504A51DC2DE9500EA5623 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		297504AA1DC2DE9500EA5623 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		297504AB1DC2DE9500EA5623 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		297504AD1DC2DE9600EA5623 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				INFOPLIST_FILE = StickerPackExtension/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Tryfon.Royale-Stickers.StickerPackExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		297504AE1DC2DE9600EA5623 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				INFOPLIST_FILE = StickerPackExtension/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Tryfon.Royale-Stickers.StickerPackExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		297504B11DC2DE9600EA5623 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				INFOPLIST_FILE = "Royale Stickers/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Tryfon.Royale-Stickers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		297504B21DC2DE9600EA5623 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				INFOPLIST_FILE = "Royale Stickers/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Tryfon.Royale-Stickers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2975049C1DC2DE9500EA5623 /* Build configuration list for PBXProject "Royale Stickers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				297504AA1DC2DE9500EA5623 /* Debug */,
+				297504AB1DC2DE9500EA5623 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		297504AC1DC2DE9600EA5623 /* Build configuration list for PBXNativeTarget "StickerPackExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				297504AD1DC2DE9600EA5623 /* Debug */,
+				297504AE1DC2DE9600EA5623 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		297504B01DC2DE9600EA5623 /* Build configuration list for PBXNativeTarget "Royale Stickers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				297504B11DC2DE9600EA5623 /* Debug */,
+				297504B21DC2DE9600EA5623 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 297504991DC2DE9500EA5623 /* Project object */;
+}
